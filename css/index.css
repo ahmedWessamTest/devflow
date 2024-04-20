@@ -189,6 +189,24 @@ nav .navbar-toggler[aria-expanded="true"]::before {
 #about .shadow-container {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);;
 }
+#about .skills .image {
+    width: 50%;
+    margin: auto;   
+}
+@media screen and (min-width: 576px) {
+    #about .skills .image {
+            width: 100%;
+            margin: auto;
+        }
+}
+#about .skills .list-group .list-group-item {
+    align-self: center;
+}
+@media screen and (min-width: 576px) {
+    #about .skills .list-group .list-group-item {
+            align-self: start;
+        }
+}
 #about .skills .skills-progress .progress {
     height: 11px;
 }
